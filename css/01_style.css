@@ -1,0 +1,319 @@
+body{
+  margin: 0;
+  padding: 0;
+  /*line-height:1.4;*/
+  color:#000000;
+  /*font-family:Arial, sans-serif;*/
+  /*font-family : YuGothic, 'Yu Gothic', sans-serif;*/
+  font-family: 'Lato', sans-serif;
+  /*fontsize: 60px;*/
+}
+nav{
+  margin-left: 70%;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+nav a{
+  color:#000000;
+  font-family: 'Lato', sans-serif;
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  padding: 4px;
+  margin-left: 8px;
+}
+
+.gnav::after {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #333;
+  transform: scale(0, 1);
+  transform-origin: center top;
+  transition: transform .3s;
+}
+.gnav:hover::after {
+  transform: scale(1, 1);
+}
+
+header{
+  text-align: center;
+  margin-top: 200px;
+}
+.titlelogo{
+  width: 400px;
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
+  background-size: contain;
+}
+.title_futsuu{
+  position:absolute;
+  top:0;
+  left:0;
+  opacity:1;
+  -webkit-transition:all .3s ease;
+  transition:all .3s ease;
+}
+.title_bureteru{
+  top:0;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+  position: absolute;
+}
+
+.titlelogo:hover .title_futsuu{
+  opacity: 0;
+}
+
+.titlelogo:hover .title_bureteru{
+  opacity: 1;
+}
+
+p{
+  display: block;
+}
+
+h1{
+  text-align: center;
+  font-size: 0.9em;
+}
+h2{
+  padding-top: 18px;
+}
+.komidashi{
+  font-size: 1.2em;
+  padding: 4px;
+}
+
+.worklink{
+  padding: 20px 10%;
+}
+
+.worklink a{
+  font-size: 0.8em;
+  line-height: 2em;
+  text-decoration: none;
+}
+
+header a{
+  font-size: 20px;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  padding-top: 60px;
+  z-index: 2;
+}
+
+
+/*スクロールボタン周り*/
+ .scroll {
+  top: 180px;
+  margin-left: -12px;
+  color: black;
+  display: inline-block;
+  padding-top: 48px;
+  z-index: 2;
+}
+.scroll span{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    margin-left: -12px;
+    border-left: 3px solid #000;
+    border-bottom: 3px solid #000;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    -webkit-animation: sdb 2s infinite;
+    animation: sdb 2s infinite;
+    box-sizing: border-box;
+}
+@-webkit-keyframes sdb {
+  0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    -webkit-transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
+  }
+}
+@keyframes sdb {
+  0% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+  20% {
+    transform: rotate(-45deg) translate(-10px, 10px);
+  }
+  40% {
+    transform: rotate(-45deg) translate(0, 0);
+  }
+}
+
+.wf-notosansjapanese {
+  font-family: "Noto Sans Japanese";
+}
+/*フォントの設定*/
+@font-face {
+  font-family: "HuiFont";
+  src: url("../assets/HuiFont29.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MidashiGo";
+  src: url("../assets/A-OTF-MidashiGoPro-MB31.otf") format("truetype");
+}
+
+.about{
+  text-align: center;
+  box-sizing: border-box;
+  padding: 200px 0 0 0;
+  letter-spacing: 0.1em;
+  line-height: 1em;
+}
+
+.myphoto{
+  width: 18%;
+  /*height: 280px;*/
+  padding: 40px 0 0 0;
+  margin: 0;
+}
+.profile{
+  padding-bottom: 40px;
+}
+.skills{
+  font-size: 0.8em;
+  line-height: 16px;
+}
+/*ビリビリさせたい*/
+ .biri{
+  position: relative;
+  max-width: 24px;
+  max-height: 24px;
+}
+#biribiri{
+  width: 24px;
+  position: absolute;
+}
+#biriri{
+  width: 24px;
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  left: 0;
+}
+.biri:hover #biribiri{
+  opacity: 0;
+  -webkit-transition:all .3s ease;
+  transition:all .3s ease;
+}
+.biri:hover #biriri{
+  opacity: 1;
+  -webkit-transition:all .3s ease;
+  transition:all .3s ease;
+}
+
+
+
+.namae{
+  font-size: 0.8em;
+  padding: 0;
+  margin: 0;
+}
+.name{
+  font-size: 0.8em;
+  padding: 2px 0 0 0;
+  margin: 0;
+}
+.text{
+  width: 400px;
+}
+.contents{
+  font-size: 0.7em;
+  line-height: 2.0em;
+}
+.skill{
+  padding-top: 80px;
+  width: 60%;
+  margin: 0 auto;
+}
+#rekishi{
+  text-align: left;
+}
+
+
+figure{
+  margin: 1em 20px;
+}
+.works{
+  text-align: center;
+}
+.worklist{
+  padding: 40px;
+  margin: 0 auto;
+}
+
+/*ホバーでキャプション表示*/
+.workBox{
+  display: inline-block;
+  position: relative;
+  width: 240px;
+  overflow: hidden;
+}
+
+.workBox01 img, .workBox img{
+  display: inline-block;
+  width: 240px;
+  height: 240px;
+  backface-visibility: hidden;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.caption{
+  background-color: rgba(255, 255, 255, 0.85);
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  width: 220px;
+  height: 220px;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  opacity:0;
+  color: rgba(0, 0, 0, 1);
+  font-family: 'Lato', sans-serif;
+}
+.caption h3{
+  padding-top: 40px;
+  font-size: 1.4em;
+}
+.caption p{
+  padding: 0 20px;
+  font-size: 0.8em;
+}
+.caption:hover{
+  opacity:1;
+}
+
+.card img{
+  width: 60%;
+  
+}
+
+
+footer{
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  padding-bottom: 40px;
+}
