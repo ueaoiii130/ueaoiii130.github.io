@@ -88,17 +88,8 @@ h2{
 }
 .komidashi{
   font-size: 1.2em;
+  font-weight: 100;
   padding: 4px;
-}
-
-.worklink{
-  padding: 20px 10%;
-}
-
-.worklink a{
-  font-size: 0.8em;
-  line-height: 2em;
-  text-decoration: none;
 }
 
 header a{
@@ -306,8 +297,17 @@ figure{
 
 .card img{
   width: 60%;
-  
 }
+.worklink{
+  padding: 20px 10%;
+}
+
+.worklink a{
+  font-size: 0.8em;
+  line-height: 2em;
+  text-decoration: none;
+}
+
 
 
 footer{
