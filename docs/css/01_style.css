@@ -296,43 +296,18 @@ figure{
 }
 
 .card img{
-  width: 600px;
-  /* padding: 10px; */
-  margin: 0 auto;
+  width: 60%;
 }
-
-.workcard{
-  padding: 10px;
-}
-.card h3, .card p{
-  padding: 0 20px;
-  text-align: left;
-  line-height: 2em;
-  width: 50%;
-  margin: 0 auto;
-}
-.card p{
-  font-size: 0.8em;
-}
-.card h3{
-  font-size: 1em;
-}
-
-
 .worklink{
   padding: 20px 10%;
 }
 
-.workcard a{
+.worklink a{
   font-size: 0.8em;
+  line-height: 2em;
   text-decoration: none;
-  text-align: left;
 }
 
-#gh a{
-  text-decoration: none;
-  font-size: 0.8em;
-}
 
 
 footer{
