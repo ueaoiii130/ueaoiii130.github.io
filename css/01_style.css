@@ -165,13 +165,13 @@ header a{
 .about{
   text-align: center;
   box-sizing: border-box;
-  padding: 200px 0 0 0;
+  padding: 300px 0 0 0;
   letter-spacing: 0.1em;
   line-height: 1em;
 }
 
 .myphoto{
-  width: 18%;
+  width: 14%;
   /*height: 280px;*/
   padding: 40px 0 0 0;
   margin: 0;
@@ -245,6 +245,7 @@ figure{
 }
 .works{
   text-align: center;
+  padding-top: 180px;
 }
 .worklist{
   padding: 40px;
@@ -320,7 +321,10 @@ figure{
 
 
 .worklink{
-  padding: 20px 10%;
+  padding-top: 32px;
+  padding-bottom: 80px;
+  line-height: 4em;
+  font-size: 0.8em;
 }
 
 .workcard a{
