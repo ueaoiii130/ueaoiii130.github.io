@@ -93,7 +93,7 @@ h2{
 }
 
 header a{
-  font-size: 20px;
+  font-size: 0.94em;
   position: relative;
   display: inline-block;
   text-decoration: none;
@@ -118,8 +118,8 @@ header a{
     width: 24px;
     height: 24px;
     margin-left: -12px;
-    border-left: 3px solid #000;
-    border-bottom: 3px solid #000;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
     -webkit-animation: sdb 2s infinite;
