@@ -43,6 +43,10 @@ header{
   text-align: center;
   margin-top: 200px;
 }
+header p{
+  font-size: 0.8em;
+  padding: 4px;
+}
 .titlelogo{
   width: 400px;
   margin-left: 0;
@@ -109,6 +113,7 @@ header a{
   color: black;
   display: inline-block;
   padding-top: 48px;
+  padding-bottom: 300px;
   z-index: 2;
 }
 .scroll span{
@@ -165,15 +170,14 @@ header a{
 .about{
   text-align: center;
   box-sizing: border-box;
-  padding: 300px 0 0 0;
+  padding: 40px 0 0 0;
   letter-spacing: 0.1em;
   line-height: 1em;
 }
-
 .myphoto{
   width: 14%;
-  /*height: 280px;*/
-  padding: 40px 0 0 0;
+  min-width: 200px;
+  padding: 24px 0 20px 0;
   margin: 0;
 }
 .profile{
@@ -220,11 +224,12 @@ header a{
 }
 .name{
   font-size: 0.8em;
-  padding: 2px 0 0 0;
+  padding: 4px 0;
   margin: 0;
 }
 .text{
   width: 400px;
+  padding-top: 40px;
 }
 .contents{
   font-size: 0.7em;
@@ -237,6 +242,7 @@ header a{
 }
 #rekishi{
   text-align: left;
+  min-width: 360px;
 }
 
 
@@ -245,7 +251,7 @@ figure{
 }
 .works{
   text-align: center;
-  padding-top: 180px;
+  padding-top: 80px;
 }
 .worklist{
   padding: 40px;
@@ -256,14 +262,14 @@ figure{
 .workBox{
   display: inline-block;
   position: relative;
-  width: 240px;
+  width: 200px;
   overflow: hidden;
 }
 
 .workBox01 img, .workBox img{
   display: inline-block;
-  width: 240px;
-  height: 240px;
+  width: 200px;
+  height: 200px;
   backface-visibility: hidden;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
@@ -275,8 +281,8 @@ figure{
   left: 10px;
   bottom: 10px;
   right: 10px;
-  width: 220px;
-  height: 220px;
+  width: 180px;
+  height: 180px;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -290,14 +296,16 @@ figure{
 }
 .caption p{
   padding: 0 20px;
-  font-size: 0.8em;
+  font-size: 0.6em;
 }
 .caption:hover{
   opacity:1;
 }
 
 .card img{
-  width: 600px;
+  /* width: 600px; */
+  width: 48%;
+  min-width: 360px;
   /* padding: 10px; */
   margin: 0 auto;
 }
@@ -306,10 +314,11 @@ figure{
   padding: 10px;
 }
 .card h3, .card p{
-  padding: 0 20px;
+  padding: 0 1.4em;
   text-align: left;
   line-height: 2em;
   width: 50%;
+  min-width: 360px;
   margin: 0 auto;
 }
 .card p{
@@ -319,12 +328,15 @@ figure{
   font-size: 1em;
 }
 
+.card{
+  padding: 20px;
+}
 
 .worklink{
   padding-top: 32px;
   padding-bottom: 80px;
   line-height: 4em;
-  font-size: 0.8em;
+  font-size: 0.6em;
 }
 
 .workcard a{
@@ -345,4 +357,9 @@ footer{
   font-size: 0.8em;
   letter-spacing: 1px;
   padding-bottom: 40px;
+}
+
+#logo2{
+  width: 20%;
+  margin-left: 14%;
 }
