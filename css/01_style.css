@@ -275,7 +275,7 @@ figure{
   transition: .3s ease-in-out;
 }
 .caption{
-  background-color: rgba(255, 255, 255, 0.85);
+  background-color: rgba(0, 0, 0, 0.6);
   position: absolute;
   top: 10px;
   left: 10px;
@@ -287,7 +287,7 @@ figure{
   -o-transition: 0.3s;
   transition: 0.3s;
   opacity:0;
-  color: rgba(0, 0, 0, 1);
+  color: rgba(255, 255, 255, 1);
   font-family: 'Lato', sans-serif;
 }
 .caption h3{
@@ -303,10 +303,8 @@ figure{
 }
 
 .card img{
-  /* width: 600px; */
   width: 48%;
   min-width: 360px;
-  /* padding: 10px; */
   margin: 0 auto;
 }
 
