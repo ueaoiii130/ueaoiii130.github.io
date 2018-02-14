@@ -22,6 +22,9 @@ nav a{
   padding: 4px;
   margin-left: 8px;
 }
+a{
+  text-decoration: none;
+}
 
 .gnav::after {
   position: absolute;
@@ -253,20 +256,38 @@ figure{
   text-align: center;
   padding-top: 80px;
 }
-.worklist{
+/* .worklist{
   padding: 40px;
   margin: 0 auto;
+} */
+.worklink a{
+  font-size: 0.8em;
+  color: black;
+  text-align: center;
+}
+.worklink{
+  margin: 0 ;
+}
+.linkcard{
+  width: 140px;
+  height: 140px;
+  overflow: hidden;
+  display: inline-block;
+  position: relative;
+  background-color: #d1cdd4;
+  padding: 40px;
 }
 
+/*一旦消去
 /*ホバーでキャプション表示*/
-.workBox{
+/* .workBox{
   display: inline-block;
   position: relative;
   width: 200px;
   overflow: hidden;
-}
+} */
 
-.workBox01 img, .workBox img{
+/* .workBox01 img, .workBox img{
   display: inline-block;
   width: 200px;
   height: 200px;
@@ -289,8 +310,8 @@ figure{
   opacity:0;
   color: rgba(255, 255, 255, 1);
   font-family: 'Lato', sans-serif;
-}
-.caption h3{
+} */
+/* .caption h3{
   padding-top: 40px;
   font-size: 1.4em;
 }
@@ -300,7 +321,7 @@ figure{
 }
 .caption:hover{
   opacity:1;
-}
+}  */
 
 .card img{
   width: 48%;
