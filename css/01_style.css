@@ -256,27 +256,11 @@ figure{
   text-align: center;
   padding-top: 80px;
 }
-/* .worklist{
+/* .worklist{s
   padding: 40px;
   margin: 0 auto;
 } */
-.worklink a{
-  font-size: 0.8em;
-  color: black;
-  text-align: center;
-}
-.worklink{
-  margin: 0 ;
-}
-.linkcard{
-  width: 140px;
-  height: 140px;
-  overflow: hidden;
-  display: inline-block;
-  position: relative;
-  background-color: #d1cdd4;
-  padding: 40px;
-}
+
 
 /*一旦消去
 /*ホバーでキャプション表示*/
@@ -351,18 +335,53 @@ figure{
   padding: 20px;
 }
 
+
 .worklink{
   padding-top: 32px;
   padding-bottom: 80px;
+}
+
+.linkcard {
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  display: inline-block;
+  padding:5px 10px;
+  /* text-decoration :none; */
+  background: #ffffff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  transition: .3s;
+  font-size: 1.0em;
+}
+
+.linkcard a{
+  color: rgb(50, 153, 184);
+  font-size: 0.9em;
+  padding: 10px;
+}
+.linkcard img{
+  width: 180px;
+  height: 90px;
+}
+.linkcard:hover {
+  box-shadow: 0 0 2px rgba(0,0,0,0.2);
+}
+
+
+/* .worklink a{
+  font-size: 0.8em;
   line-height: 4em;
-  font-size: 0.6em;
+  color: black;
+  text-align: center;
 }
 
 .workcard a{
   font-size: 0.8em;
   text-decoration: none;
   text-align: left;
-}
+} */
+
+
 
 #gh a{
   text-decoration: none;
