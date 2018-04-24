@@ -1,12 +1,8 @@
 body{
   margin: 0;
   padding: 0;
-  /*line-height:1.4;*/
   color:#000000;
-  /*font-family:Arial, sans-serif;*/
-  /*font-family : YuGothic, 'Yu Gothic', sans-serif;*/
   font-family: 'Lato', sans-serif;
-  /*fontsize: 60px;*/
 }
 nav{
   margin-left: 70%;
@@ -89,6 +85,8 @@ p{
 h1{
   text-align: center;
   font-size: 0.9em;
+  font-weight: lighter;
+  color: gray;
 }
 h2{
   padding-top: 18px;
@@ -160,15 +158,7 @@ header a{
 .wf-notosansjapanese {
   font-family: "Noto Sans Japanese";
 }
-/*フォントの設定*/
-@font-face {
-  font-family: "HuiFont";
-  src: url("../assets/HuiFont29.ttf") format("truetype");
-}
-@font-face {
-  font-family: "MidashiGo";
-  src: url("../assets/A-OTF-MidashiGoPro-MB31.otf") format("truetype");
-}
+
 
 .about{
   text-align: center;
@@ -178,34 +168,31 @@ header a{
   line-height: 1em;
 }
 .myphoto{
-  width: 14%;
+  width: 12%;
   min-width: 200px;
   padding: 24px 0 20px 0;
   margin: 0;
 }
-.profile{
-  padding-bottom: 40px;
-}
+
 .skills{
   font-size: 0.8em;
   line-height: 16px;
 }
 /*ビリビリさせたい*/
  .biri{
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
   position: relative;
-  max-width: 24px;
-  max-height: 24px;
 }
 #biribiri{
   width: 24px;
+  clear: both;
   position: absolute;
 }
 #biriri{
   width: 24px;
-  position: absolute;
   opacity: 0;
-  top: 0;
-  left: 0;
 }
 .biri:hover #biribiri{
   opacity: 0;
@@ -238,79 +225,105 @@ header a{
   font-size: 0.7em;
   line-height: 2.0em;
 }
-.skill{
-  padding-top: 80px;
+.socialIcon{
+  margin: 28px;
+}
+/* BUTTON 5 */
+.btn{
+  border-radius: 12px;
+}
+.btn:hover, .btn:focus{
+  transition-timing-function: cubic-bezier(0.6, 4, 0.3, 0.8);
+  -webkit-animation: gelatine 0.5s 1;
+          animation: gelatine 0.5s 1;
+}
+
+@-webkit-keyframes gelatine {
+  from,to {
+    -webkit-transform: scale(1, 1);
+  }
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+  }
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+  }
+  from,to {
+    -webkit-transform: scale(1, 1);
+  }
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+  }
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+  }
+}
+@keyframes gelatine {
+  from,to {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+    transform: scale(0.95, 1.05);
+  }
+  from,to {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+  }
+  25% {
+    -webkit-transform: scale(0.9, 1.1);
+    transform: scale(0.9, 1.1);
+  }
+  50% {
+    -webkit-transform: scale(1.1, 0.9);
+    transform: scale(1.1, 0.9);
+  }
+  75% {
+    -webkit-transform: scale(0.95, 1.05);
+    transform: scale(0.95, 1.05);
+  }
+}
+
+.socialIcon img{
+  width: 32px;
+  padding: 2px;
+}
+
+.bio{
   width: 60%;
   margin: 0 auto;
+  height: 200px;
 }
 #rekishi{
   text-align: left;
   min-width: 360px;
 }
 
-
-figure{
-  margin: 1em 20px;
-}
 .works{
   text-align: center;
   padding-top: 80px;
 }
-/* .worklist{s
-  padding: 40px;
-  margin: 0 auto;
-} */
-
-
-/*一旦消去
-/*ホバーでキャプション表示*/
-/* .workBox{
-  display: inline-block;
-  position: relative;
-  width: 200px;
-  overflow: hidden;
-} */
-
-/* .workBox01 img, .workBox img{
-  display: inline-block;
-  width: 200px;
-  height: 200px;
-  backface-visibility: hidden;
-  -webkit-transition: .3s ease-in-out;
-  transition: .3s ease-in-out;
-}
-.caption{
-  background-color: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  top: 10px;
-  left: 10px;
-  bottom: 10px;
-  right: 10px;
-  width: 180px;
-  height: 180px;
-  -moz-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-  opacity:0;
-  color: rgba(255, 255, 255, 1);
-  font-family: 'Lato', sans-serif;
-} */
-/* .caption h3{
-  padding-top: 40px;
-  font-size: 1.4em;
-}
-.caption p{
-  padding: 0 20px;
-  font-size: 0.6em;
-}
-.caption:hover{
-  opacity:1;
-}  */
 
 .card img{
   width: 48%;
   min-width: 360px;
   margin: 0 auto;
+    clear: both;
 }
 
 .workcard{
@@ -333,6 +346,17 @@ figure{
 
 .card{
   padding: 20px;
+}
+
+.mockup{
+  /* width: 50%;
+  min-width: 360px; */
+  margin: 0 auto;
+  padding: 10px;
+}
+.mockup .mock-img{
+  width: 14%;
+  min-width: 40px;
 }
 
 
@@ -366,22 +390,6 @@ figure{
 .linkcard:hover {
   box-shadow: 0 0 2px rgba(0,0,0,0.2);
 }
-
-
-/* .worklink a{
-  font-size: 0.8em;
-  line-height: 4em;
-  color: black;
-  text-align: center;
-}
-
-.workcard a{
-  font-size: 0.8em;
-  text-decoration: none;
-  text-align: left;
-} */
-
-
 
 #gh a{
   text-decoration: none;
