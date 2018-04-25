@@ -169,7 +169,7 @@ header a{
 }
 .myphoto{
   width: 12%;
-  min-width: 200px;
+  min-width: 100px;
   padding: 24px 0 20px 0;
   margin: 0;
 }
@@ -348,16 +348,16 @@ header a{
   padding: 20px;
 }
 
-.mockup{
+/* .mockup{ */
   /* width: 50%;
   min-width: 360px; */
-  margin: 0 auto;
+  /* margin: 0 auto;
   padding: 10px;
-}
-.mockup .mock-img{
+} */
+/* .mockup .mock-img{
   width: 14%;
   min-width: 40px;
-}
+} */
 
 
 .worklink{
@@ -371,7 +371,6 @@ header a{
   overflow: hidden;
   display: inline-block;
   padding:5px 10px;
-  /* text-decoration :none; */
   background: #ffffff;
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
   transition: .3s;
@@ -403,9 +402,4 @@ footer{
   font-size: 0.8em;
   letter-spacing: 1px;
   padding-bottom: 40px;
-}
-
-#logo2{
-  width: 20%;
-  margin-left: 14%;
 }
