@@ -20,9 +20,13 @@ nav a{
 }
 a{
   text-decoration: none;
-
 }
-
+a:link{
+  color:#000000;
+}
+a:visited{
+  color:#000000;
+}
 .gnav::after {
   position: absolute;
   bottom: -1px;
@@ -362,7 +366,6 @@ hr{
 }
 
 .worklink{
-  padding-top: 32px;
   padding-bottom: 80px;
 }
 
