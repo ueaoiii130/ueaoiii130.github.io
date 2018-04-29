@@ -20,6 +20,7 @@ nav a{
 }
 a{
   text-decoration: none;
+
 }
 
 .gnav::after {
@@ -317,13 +318,32 @@ header a{
 .works{
   text-align: center;
   padding-top: 80px;
+  width: 90%;
+  max-width: 650px;
+  margin: 0 auto;
 }
 
+hr{
+  width: 4%;
+  size: 6px;
+  align: center;
+  color: #000;
+}
+
+.card{
+  padding: 20px;
+  margin: 20px;
+  transition: .3s;
+}
+.card:hover{
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  transform: scale(1.02);
+
+}
+
+
 .card img{
-  width: 48%;
-  min-width: 360px;
-  margin: 0 auto;
-    clear: both;
+  width: 100%;
 }
 
 .workcard{
@@ -333,9 +353,6 @@ header a{
   padding: 0 1.4em;
   text-align: left;
   line-height: 2em;
-  width: 50%;
-  min-width: 360px;
-  margin: 0 auto;
 }
 .card p{
   font-size: 0.8em;
@@ -343,22 +360,6 @@ header a{
 .card h3{
   font-size: 1em;
 }
-
-.card{
-  padding: 20px;
-}
-
-/* .mockup{ */
-  /* width: 50%;
-  min-width: 360px; */
-  /* margin: 0 auto;
-  padding: 10px;
-} */
-/* .mockup .mock-img{
-  width: 14%;
-  min-width: 40px;
-} */
-
 
 .worklink{
   padding-top: 32px;
